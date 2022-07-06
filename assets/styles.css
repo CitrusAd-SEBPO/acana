@@ -630,7 +630,7 @@ ul.splide__pagination {
   column-gap: 10px;
   position: absolute;
   bottom: -10px;
-  left: 45%;
+  width: 100%;
 }
 ul.splide__pagination button {
   width: 19px;
@@ -641,8 +641,5 @@ ul.splide__pagination button {
 @media all and (max-width: 768px) {
   .citrusAcana__sliderBox {
     height: auto;
-  }
-  ul.splide__pagination {
-    left: 40%;
   }
 }
